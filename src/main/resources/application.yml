@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: warchest
+
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/warchest}
+    username: warchest
+    password: warchest
+
+  jpa:
+    hibernate:
+        ddl-auto: validate
+
+    open-in-view: false
+
+  flyway:
+    enabled: true
+
+warchest:
+  mlb-api:
+    base-url: https://statsapi.mlb.com/api/v1
+    sport-id: 1
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info

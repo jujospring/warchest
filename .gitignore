@@ -1,0 +1,10 @@
+GUIDE.md
+SETUP.md
+HELP.md
+.idea
+.mvn
+mvnw
+target/
+.DS_Store
+.env
+data/
