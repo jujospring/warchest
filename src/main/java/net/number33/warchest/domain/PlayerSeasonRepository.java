@@ -7,4 +7,6 @@ import java.util.List;
 public interface PlayerSeasonRepository extends JpaRepository<PlayerSeason, Long> {
 
     List<PlayerSeason> findBySeason(Integer season);
+
+    void deleteBySeason(Integer season);
 }

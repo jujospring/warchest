@@ -20,6 +20,8 @@ warchest:
   mlb-api:
     base-url: https://statsapi.mlb.com/api/v1
     sport-id: 1
+  import:
+    bat-file: data/war_daily_bat.txt
 
 management:
   endpoints:
