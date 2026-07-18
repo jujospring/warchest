@@ -1,0 +1,8 @@
+GUIDE.md
+SETUP.md
+HELP.md
+.idea
+target/
+.env
+data/
+.git

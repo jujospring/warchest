@@ -4,8 +4,8 @@ spring:
 
   datasource:
     url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/warchest}
-    username: warchest
-    password: warchest
+    username: ${DATABASE_USER:warchest}
+    password: ${DATABASE_PASSWORD:warchest}
 
   jpa:
     hibernate:
@@ -15,6 +15,9 @@ spring:
 
   flyway:
     enabled: true
+
+server:
+  port: ${PORT:8080}
 
 warchest:
   mlb-api:
