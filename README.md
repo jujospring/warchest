@@ -8,7 +8,7 @@ Try it live: https://warchest-web.onrender.com/api/v1/players/value?season=2026
 #### Example from the 2026 season, getting the five players in baseball that provide the most bang for their buck:
 Curl command:
 ```bash
-curl -s 'localhost:8080/api/v1/players/value?season=2026' | jq '.[:5]'
+curl -s 'https://warchest-web.onrender.com/api/v1/players/value?season=2026' | jq '.[:5]'
 ```
 Output
 ```json
@@ -64,7 +64,7 @@ Output
 #### Ronald Acuña Jr.'s player values from 2021-2026, given his notoriously cheap contract:
 Curl command:
 ```bash
-curl -s 'localhost:8080/api/v1/players/career?name=Ronald%20Acu%C3%B1a%20Jr.' | jq
+curl -s 'https://warchest-web.onrender.com/api/v1/players/career?name=Ronald%20Acu%C3%B1a%20Jr.' | jq
 ```
 Output
 ```json
@@ -129,7 +129,7 @@ Output
 #### Five albatrosses for the 2026 season so far:
 Curl command:
 ```bash
-curl -s 'localhost:8080/api/v1/players/albatrosses?season=2026' | jq '.[:5]'
+curl -s 'https://warchest-web.onrender.com/api/v1/players/albatrosses?season=2026' | jq '.[:5]'
 ```
 Output (lolmets)
 ```json
@@ -185,7 +185,7 @@ Output (lolmets)
 #### The efficiency of total (currently measurable) payroll versus total team war for the Boston Red Sox so far in the 2026 season:
 Curl command:
 ```bash
-curl -s 'localhost:8080/api/v1/teams/BOS/efficiency?season=2026' | jq
+curl -s 'https://warchest-web.onrender.com/api/v1/teams/BOS/efficiency?season=2026' | jq
 ```
 Output
 ```json
