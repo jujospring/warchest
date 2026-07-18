@@ -8,5 +8,13 @@ public interface PlayerSeasonRepository extends JpaRepository<PlayerSeason, Long
 
     List<PlayerSeason> findBySeason(Integer season);
 
+    List<PlayerSeason> findBySeasonAndTeamAbbrev(Integer season, String teamAbbrev);
+
+    List<PlayerSeason> findByFullNameIgnoreCaseAndSeason(String fullName, Integer season);
+
+    List<PlayerSeason> findByFullNameIgnoreCase(String fullName);
+
+    List<PlayerSeason> findByMlbPlayerId(Integer mlbPlayerId);
+
     void deleteBySeason(Integer season);
 }
