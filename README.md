@@ -1,7 +1,7 @@
 # WarChest 
 ### An API that finds MLB's best bargains and worst contracts via $ / WAR.
 
-Try it live: https://warchest-web.onrender.com
+Try it live: https://warchest-web.onrender.com/api/v1/players/value?season=2026
 
 ---
 
