@@ -30,6 +30,11 @@ public class ValueController {
         return valueService.teamEfficiency(abbrev, season);
     }
 
+    @GetMapping("/teams/{abbrev}/ranks")
+    public List<PlayerValue> teamRanks(@PathVariable String abbrev, @RequestParam int season) {
+        return valueService.teamRanks(abbrev, season);
+    }
+
     @GetMapping("/players/search")
     public List<PlayerValue> searchByNameAndSeason(@RequestParam String name, @RequestParam int season) {
         return valueService.playerValueBySeason(name, season);

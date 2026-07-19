@@ -4,6 +4,7 @@ import net.number33.warchest.api.PlayerValue;
 import net.number33.warchest.api.TeamEfficiency;
 import net.number33.warchest.domain.PlayerSeason;
 import net.number33.warchest.domain.PlayerSeasonRepository;
+import org.hibernate.mapping.Value;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
@@ -11,6 +12,7 @@ import java.math.RoundingMode;
 import java.util.List;
 import java.util.Comparator;
 import java.util.Objects;
+import java.util.stream.Stream;
 
 @Service
 public class ValueService {
@@ -58,6 +60,15 @@ public class ValueService {
                 .map(ValueService::toPlayerValue).sorted(Comparator.comparingInt(PlayerValue::season)).toList();
     }
 
+    // TODO: decide on variable usage, freaking hate these long streams and would prob prefer to use variables in future
+    public List<PlayerValue> teamRanks(String teamAbbrev, int season) {
+        List<PlayerSeason> roster = repository.findBySeasonAndTeamAbbrev(season, teamAbbrev.toUpperCase());
+        Stream<PlayerValue> rosterValues = roster.stream()
+                .map(ValueService::toPlayerValue)
+                .sorted(Comparator.comparing(PlayerValue::dollarsPerWar, Comparator.nullsLast(Comparator.naturalOrder())));
+        return rosterValues.toList();
+    }
+
     private static PlayerValue toPlayerValue(PlayerSeason ps) {
         Long dollarsPerWar = (ps.getWar() != null && ps.getSalaryUsd() != null && ps.getWar().compareTo(MIN_RANKABLE_WAR) >= 0)
                 ? BigDecimal.valueOf(ps.getSalaryUsd())
@@ -83,4 +94,5 @@ public class ValueService {
 
         return new TeamEfficiency(teamAbbrev.toUpperCase(), season, roster.size(), totalWar, totalPayroll, dollarsPerWar);
     }
+
 }
