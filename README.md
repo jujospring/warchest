@@ -262,7 +262,7 @@ curl -s 'localhost:8080/api/v1/players/value?season=2026' | jq '.[:5]'    # test
 - **Pitchers** - import `war_daily_pitch.txt` (just throw the ball man)
 - **Accent-insensitive search** - normalized name column
 - **Cot's Contracts enrichment** - fill salary gaps which means name based fuzzy
-  id matching (which is why it's missing in v1)
+  id matching (which is why it's missing in v1) + contract info and service time
 - **Tests + CI** - Testcontainers for Postgres test suite, GitHub Actions
 - **Admin auth** -  shared secret header on admin endpoints
 - **Frontend** - view da stuff, but from web
