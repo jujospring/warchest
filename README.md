@@ -254,6 +254,7 @@ curl -s 'localhost:8080/api/v1/players/value?season=2026' | jq '.[:5]'    # test
 | GET | `/api/v1/players/{mlbPlayerId}` | All imported seasons by MLB id                       |
 | GET | `/api/v1/teams/{abbrev}/efficiency?season=` | Team payroll vs. total WAR                           |
 | GET | `/api/v1/teams?season=` | Live team list from the MLB Stats API                |
+| GET | `/api/v1/teams/{abbrev}/ranks?season=` | Team player value ranking list for a given season          |
 | POST | `/api/v1/admin/import?season=` | (Re)import a season from the data file               |
 
 ## Roadmap
