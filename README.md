@@ -18,45 +18,50 @@ Output
     "fullName": "Pete Crow-Armstrong",
     "season": 2026,
     "teamAbbrev": "CHC",
-    "war": 5.8,
+    "war": 6.2,
+    "plusStat": 153.0,
     "salaryUsd": 894000,
-    "dollarsPerWar": 154138
+    "dollarsPerWar": 144194
   },
   {
     "mlbPlayerId": 805808,
     "fullName": "Kevin McGonigle",
     "season": 2026,
     "teamAbbrev": "DET",
-    "war": 4.5,
+    "war": 4.9,
+    "plusStat": 125.7,
     "salaryUsd": 780000,
-    "dollarsPerWar": 173333
+    "dollarsPerWar": 159184
   },
   {
-    "mlbPlayerId": 669003,
-    "fullName": "Garrett Mitchell",
+    "mlbPlayerId": 695505,
+    "fullName": "Chase Burns",
     "season": 2026,
-    "teamAbbrev": "MIL",
-    "war": 1.9,
-    "salaryUsd": 950000,
-    "dollarsPerWar": 500000
+    "teamAbbrev": "CIN",
+    "war": 4.6,
+    "plusStat": 180.6,
+    "salaryUsd": 785000,
+    "dollarsPerWar": 170652
   },
   {
-    "mlbPlayerId": 691016,
-    "fullName": "Tyler Soderstrom",
+    "mlbPlayerId": 802139,
+    "fullName": "JJ Wetherholt",
     "season": 2026,
-    "teamAbbrev": "ATH",
-    "war": 2.4,
-    "salaryUsd": 1285714,
-    "dollarsPerWar": 535714
+    "teamAbbrev": "STL",
+    "war": 4.2,
+    "plusStat": 114.3,
+    "salaryUsd": 780000,
+    "dollarsPerWar": 185714
   },
   {
-    "mlbPlayerId": 678882,
-    "fullName": "Ceddanne Rafaela",
+    "mlbPlayerId": 676974,
+    "fullName": "Max Meyer",
     "season": 2026,
-    "teamAbbrev": "BOS",
-    "war": 4.1,
-    "salaryUsd": 2250000,
-    "dollarsPerWar": 548780
+    "teamAbbrev": "MIA",
+    "war": 2.9,
+    "plusStat": 151.0,
+    "salaryUsd": 980000,
+    "dollarsPerWar": 337931
   }
 ]
 ```
@@ -72,9 +77,40 @@ Output
   {
     "mlbPlayerId": 660670,
     "fullName": "Ronald Acuña Jr.",
+    "season": 2018,
+    "teamAbbrev": "ATL",
+    "war": 3.9,
+    "plusStat": 143.1,
+    "salaryUsd": 545000,
+    "dollarsPerWar": 139744
+  },
+  {
+    "mlbPlayerId": 660670,
+    "fullName": "Ronald Acuña Jr.",
+    "season": 2019,
+    "teamAbbrev": "ATL",
+    "war": 5.2,
+    "plusStat": 121.2,
+    "salaryUsd": 560000,
+    "dollarsPerWar": 107692
+  },
+  {
+    "mlbPlayerId": 660670,
+    "fullName": "Ronald Acuña Jr.",
+    "season": 2020,
+    "teamAbbrev": "ATL",
+    "war": 2.4,
+    "plusStat": 156.4,
+    "salaryUsd": 1000000,
+    "dollarsPerWar": 416667
+  },
+  {
+    "mlbPlayerId": 660670,
+    "fullName": "Ronald Acuña Jr.",
     "season": 2021,
     "teamAbbrev": "ATL",
     "war": 3.5,
+    "plusStat": 158.3,
     "salaryUsd": 5000000,
     "dollarsPerWar": 1428571
   },
@@ -84,6 +120,7 @@ Output
     "season": 2022,
     "teamAbbrev": "ATL",
     "war": 2.3,
+    "plusStat": 112.1,
     "salaryUsd": 15000000,
     "dollarsPerWar": 6521739
   },
@@ -93,6 +130,7 @@ Output
     "season": 2023,
     "teamAbbrev": "ATL",
     "war": 8.4,
+    "plusStat": 170.6,
     "salaryUsd": 17000000,
     "dollarsPerWar": 2023810
   },
@@ -102,6 +140,7 @@ Output
     "season": 2024,
     "teamAbbrev": "ATL",
     "war": 0.0,
+    "plusStat": 100.8,
     "salaryUsd": 17000000,
     "dollarsPerWar": null
   },
@@ -111,6 +150,7 @@ Output
     "season": 2025,
     "teamAbbrev": "ATL",
     "war": 3.1,
+    "plusStat": 161.5,
     "salaryUsd": 17000000,
     "dollarsPerWar": 5483871
   },
@@ -120,6 +160,7 @@ Output
     "season": 2026,
     "teamAbbrev": "ATL",
     "war": 0.8,
+    "plusStat": 119.6,
     "salaryUsd": 17000000,
     "dollarsPerWar": 21250000
   }
@@ -135,12 +176,13 @@ Output (lolmets)
 ```json
 [
   {
-    "mlbPlayerId": 666182,
-    "fullName": "Bo Bichette",
+    "mlbPlayerId": 605483,
+    "fullName": "Blake Snell",
     "season": 2026,
-    "teamAbbrev": "NYM",
-    "war": 0.0,
-    "salaryUsd": 42000000,
+    "teamAbbrev": "LAD",
+    "war": -0.2,
+    "plusStat": 38.9,
+    "salaryUsd": 27869485,
     "dollarsPerWar": null
   },
   {
@@ -148,7 +190,8 @@ Output (lolmets)
     "fullName": "Trea Turner",
     "season": 2026,
     "teamAbbrev": "PHI",
-    "war": -0.1,
+    "war": 0.0,
+    "plusStat": 80.6,
     "salaryUsd": 27272727,
     "dollarsPerWar": null
   },
@@ -157,7 +200,8 @@ Output (lolmets)
     "fullName": "Marcus Semien",
     "season": 2026,
     "teamAbbrev": "NYM",
-    "war": -0.6,
+    "war": -0.9,
+    "plusStat": 66.4,
     "salaryUsd": 26000000,
     "dollarsPerWar": null
   },
@@ -166,17 +210,19 @@ Output (lolmets)
     "fullName": "Trevor Story",
     "season": 2026,
     "teamAbbrev": "BOS",
-    "war": 0.0,
+    "war": -0.1,
+    "plusStat": 54.6,
     "salaryUsd": 25000000,
     "dollarsPerWar": null
   },
   {
-    "mlbPlayerId": 543807,
-    "fullName": "George Springer",
+    "mlbPlayerId": 640455,
+    "fullName": "Sean Manaea",
     "season": 2026,
-    "teamAbbrev": "TOR",
-    "war": -0.1,
-    "salaryUsd": 24166667,
+    "teamAbbrev": "NYM",
+    "war": 0.0,
+    "plusStat": 92.3,
+    "salaryUsd": 25000000,
     "dollarsPerWar": null
   }
 ]
@@ -192,10 +238,10 @@ Output
 {
   "teamAbbrev": "BOS",
   "season": 2026,
-  "players": 20,
-  "totalWar": 19.2,
-  "totalPayrollUsd": 83150000,
-  "dollarsPerWar": 4330729
+  "players": 45,
+  "totalWar": 28.2,
+  "totalPayrollUsd": 210783334,
+  "dollarsPerWar": 7474586
 }
 ```
 ---
@@ -217,7 +263,7 @@ Output
                         └────────────────────────────────────────┘
 ```
 
-One row per player per season lives in `player_season`. The importer streams b-ref's daily war file, filters to a given season's hitters, collapses multi-team hitter seasons into a singular season summing war and listing the last team the player was on, and then upserts atomically. `ValueService` calculates dollars per war on read, and applies a 0.5 war threshold as lower values currently mess with the ratio of value. Negative war contracts currently get their own endpoint. Flyway owns schema and hibernate validates it.
+One row per player per season lives in `player_season`. The importer streams b-ref's daily war file, filters to a given season's players, collapses multi-team seasons into a singular season summing war and listing the last team the player was on, and then upserts atomically. `ValueService` calculates dollars per war on read, and applies a 0.5 war threshold as lower values currently mess with the ratio of value. Negative war contracts currently get their own endpoint. Flyway owns schema and hibernate validates it.
 
 ## Data sources & limitations
 - **WAR + salary:** [Baseball-Reference's war_daily files](https://www.baseball-reference.com/data/)
@@ -233,7 +279,7 @@ One row per player per season lives in `player_season`. The importer streams b-r
 ## Quickstart
 
 Prereqs: Docker, JDK 21, Maven. One manual download: grab
-[war_daily_bat.txt](https://www.baseball-reference.com/data/war_daily_bat.txt)
+[war_daily_bat.txt](https://www.baseball-reference.com/data/war_daily_bat.txt) and [war_daily_pitch.txt](https://www.baseball-reference.com/data/war_daily_pitch.txt)
 in your browser and drop it in `data/`.
 
 ```bash
@@ -259,7 +305,6 @@ curl -s 'localhost:8080/api/v1/players/value?season=2026' | jq '.[:5]'    # test
 
 ## Roadmap
 
-- **Pitchers** - import `war_daily_pitch.txt` (just throw the ball man)
 - **Accent-insensitive search** - normalized name column
 - **Cot's Contracts enrichment** - fill salary gaps which means name based fuzzy
   id matching (which is why it's missing in v1) + contract info and service time
