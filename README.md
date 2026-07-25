@@ -172,7 +172,7 @@ Curl command:
 ```bash
 curl -s 'https://warchest-web.onrender.com/api/v1/players/albatrosses?season=2026' | jq '.[:5]'
 ```
-Output (lolmets)
+Output (lolmets -> updated this for pitchers and there are still 2 mets in here lmao) 
 ```json
 [
   {
