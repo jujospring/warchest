@@ -12,4 +12,3 @@ create table player_season (
 );
 
 create index idx_player_season_season on player_season (season);
-

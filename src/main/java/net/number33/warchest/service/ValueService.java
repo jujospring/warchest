@@ -74,7 +74,7 @@ public class ValueService {
                 ? BigDecimal.valueOf(ps.getSalaryUsd())
                 .divide(ps.getWar(), 0, RoundingMode.HALF_UP)
                 .longValueExact() : null;
-        return new PlayerValue(ps.getMlbPlayerId(), ps.getFullName(), ps.getSeason(), ps.getTeamAbbrev(), ps.getWar(), ps.getSalaryUsd(), dollarsPerWar);
+        return new PlayerValue(ps.getMlbPlayerId(), ps.getFullName(), ps.getSeason(), ps.getTeamAbbrev(), ps.getWar(), ps.getPlusStat(), ps.getSalaryUsd(), dollarsPerWar);
     }
 
     public TeamEfficiency teamEfficiency(String teamAbbrev, int season) {

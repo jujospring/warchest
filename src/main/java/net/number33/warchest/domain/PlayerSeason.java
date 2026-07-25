@@ -21,8 +21,10 @@ public class PlayerSeason {
     private String teamAbbrev;
     private String position;
     private BigDecimal war;
+    private BigDecimal plusStat;
     private Long salaryUsd;
     private Instant updatedAt;
+    private Boolean pitcher;
 
     protected PlayerSeason() {
     }
@@ -81,6 +83,14 @@ public class PlayerSeason {
         return war;
     }
 
+    public void setPlusStat(BigDecimal plusStat) {
+        this.plusStat = plusStat;
+    }
+
+    public BigDecimal getPlusStat() {
+        return plusStat;
+    }
+
     public void setWar(BigDecimal war) {
         this.war = war;
     }
@@ -91,6 +101,14 @@ public class PlayerSeason {
 
     public void setSalaryUsd(Long salaryUsd) {
         this.salaryUsd = salaryUsd;
+    }
+
+    public Boolean getPitcher() {
+        return pitcher;
+    }
+
+    public void setPitcher(Boolean pitcher) {
+        this.pitcher = pitcher;
     }
 
     public Instant getUpdatedAt() {

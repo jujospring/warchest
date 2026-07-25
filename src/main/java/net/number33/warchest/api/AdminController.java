@@ -25,4 +25,10 @@ public class AdminController {
         int imported = csvImportService.importBattingSeason(season);
         return Map.of("season", season, "imported", imported);
     }
+
+    @PostMapping("/importPitching")
+    public Map<String, Object> importPitchingSeason(@RequestParam int season) {
+        int imported = csvImportService.importPitchingSeason(season);
+        return Map.of("season", season, "imported", imported);
+    }
 }

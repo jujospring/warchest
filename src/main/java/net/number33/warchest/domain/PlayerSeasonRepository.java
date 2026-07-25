@@ -16,5 +16,5 @@ public interface PlayerSeasonRepository extends JpaRepository<PlayerSeason, Long
 
     List<PlayerSeason> findByMlbPlayerId(Integer mlbPlayerId);
 
-    void deleteBySeason(Integer season);
+    void deleteBySeasonAndPitcher(Integer season, Boolean pitcher);
 }
