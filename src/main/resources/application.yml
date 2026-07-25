@@ -25,6 +25,7 @@ warchest:
     sport-id: 1
   import:
     bat-file: data/war_daily_bat.txt
+    pitch-file: data/war_daily_pitch.txt
 
 management:
   endpoints:
