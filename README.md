@@ -66,7 +66,7 @@ Output
 ]
 ```
 ---
-#### Ronald Acuña Jr.'s player values from 2021-2026, given his notoriously cheap contract:
+#### Ronald Acuña Jr.'s player values from 2018-2026, given his notoriously cheap contract:
 Curl command:
 ```bash
 curl -s 'https://warchest-web.onrender.com/api/v1/players/career?name=Ronald%20Acu%C3%B1a%20Jr.' | jq
