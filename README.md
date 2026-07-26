@@ -255,7 +255,7 @@ Output
  (teams, live data)     │       │                                │
                         │       ▼                                │
  Baseball-Reference ──▶ │  CsvImportService ──▶ JPA Repository ──┼──▶ PostgreSQL
- war_daily_bat.txt      │  (filter, stint     (PlayerSeason)     │    (player_season)
+ war_daily_*.txt        │  (filter, stint     (PlayerSeason)     │    (player_season)
  (WAR + salary,         │   aggregation)                         │
   manual download)      │       ▼                                │
                         │  ValueService ──▶ REST Controllers     │
