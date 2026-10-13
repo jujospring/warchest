@@ -274,11 +274,11 @@ One row per player per season lives in `player_season`. The importer streams b-r
 - **Name search is exact:** data stores proper
   diacritics (e.g. `Ronald Acuña Jr.`), search that way, or use the
   ID endpoints.
-- **Admin import endpoint is unauthenticated** — acceptable for now, but will be changed later on.
+- **Admin import endpoint is unauthenticated** fine for now, but will be changed later on.
 
 ## Quickstart
 
-Prereqs: Docker, JDK 21, Maven. One manual download: grab
+Prereqs: Docker, JDK 21, Maven. Grab
 [war_daily_bat.txt](https://www.baseball-reference.com/data/war_daily_bat.txt) and [war_daily_pitch.txt](https://www.baseball-reference.com/data/war_daily_pitch.txt)
 in your browser and drop it in `data/`.
 
